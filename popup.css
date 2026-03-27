@@ -1,0 +1,65 @@
+body {
+    width: 340px;
+    font-family: 'Inter', -apple-system, sans-serif;
+    margin: 0;
+    background: #f8fafc;
+}
+
+.popup-container { padding: 14px; box-sizing: border-box; }
+
+header { text-align: center; margin-bottom: 12px; }
+.brand { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 4px; }
+.logo { width: 22px; height: 22px; }
+h1 { font-size: 15px; color: #0f172a; margin: 0; font-weight: 700; }
+
+.privacy-note { 
+    font-size: 10px; 
+    color: #64748b; 
+    margin: 0; 
+    font-weight: 500;
+    background: #f1f5f9;
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.card {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    margin-bottom: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.section-label { font-size: 9px; text-transform: uppercase; color: #94a3b8; font-weight: 800; display: block; margin-bottom: 6px; }
+
+.input-wrapper {
+    display: flex;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+input { border: none; background: transparent; padding: 8px 10px; width: 100%; font-family: 'JetBrains Mono', monospace; font-size: 13px; outline: none; }
+
+#copyBtn, .icon-btn { background: #0f172a; color: white; border: none; padding: 0 12px; font-size: 11px; cursor: pointer; font-weight: 600; transition: 0.2s; }
+#copyBtn:hover { background: #1e293b; }
+.icon-btn { background: transparent; color: #64748b; border-left: 1px solid #cbd5e1; font-size: 14px; }
+
+.slider-container { font-size: 11px; margin: 8px 0; font-weight: 500; }
+.options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 8px 0; }
+.chip { font-size: 11px; background: #f1f5f9; padding: 4px 8px; border-radius: 4px; display: flex; align-items: center; gap: 5px; cursor: pointer; color: #475569; }
+
+.primary-btn { background: #22c55e; color: white; border: none; width: 100%; padding: 10px; border-radius: 6px; font-weight: 700; cursor: pointer; margin-top: 4px; }
+.primary-btn:hover { background: #16a34a; }
+
+.strength-meter { height: 6px; background: #e2e8f0; border-radius: 3px; margin: 10px 0 5px; overflow: hidden; }
+.bar { height: 100%; width: 0; transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+
+.status-row { display: flex; justify-content: space-between; font-size: 10px; font-weight: 700; margin-top: 4px; }
+
+footer { text-align: center; margin-top: 5px; padding-top: 10px; }
+footer a { color: #22c55e; text-decoration: none; font-size: 11px; font-weight: 700; border-bottom: 1px solid transparent; transition: 0.2s; }
+footer a:hover { border-bottom: 1px solid #22c55e; }
